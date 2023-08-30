@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>IFE ECMAScript</title>
+  </head>
+  <body>
+    <script>
+      //步骤1：新建一个表格。
+      document.write("<table border='1'>");
+      //步骤2：利用tr输出9个行，用到简单的for循环。
+      for (var i = 1; i <= 9; i++) {
+        document.write("<tr>");
+        //步骤3:双重for循环，建立45个td,成三角形。
+        for (var j = 1; j <= i; j++) {
+          document.write("<td>");
+          document.write(j + "x" + i + "=" + j * i);
+          document.write("</td>");
+        }
+        document.write("</tr>");
+      }
+      document.write("</table>");
+    </script>
+  </body>
+</html>

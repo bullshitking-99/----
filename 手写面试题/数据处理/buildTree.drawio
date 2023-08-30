@@ -1,0 +1,319 @@
+<mxfile host="65bd71144e">
+    <diagram id="fBLRjejB6DjTeDCgRzUW" name="第 1 页">
+        <mxGraphModel dx="854" dy="546" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="129" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#CCCCFF;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="2641" y="361" width="366" height="43" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#CCCCFF;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1162" y="354" width="349" height="42" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#3399FF;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="359" y="170" width="451" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="node&lt;br&gt;parent = 0&lt;br&gt;id = 1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3399FF;" vertex="1" parent="1">
+                    <mxGeometry x="379" y="190" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#66B2FF;startArrow=oval;startFill=1;endArrow=open;endFill=0;" edge="1" parent="1" source="8">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="420" y="240" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="530" y="280"/>
+                            <mxPoint x="420" y="280"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#66B2FF;startArrow=oval;startFill=1;endArrow=open;endFill=0;" edge="1" parent="1" source="8" target="13">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="530" y="280"/>
+                            <mxPoint x="640" y="280"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#66B2FF;startArrow=oval;startFill=1;endArrow=open;endFill=0;" edge="1" parent="1" source="8" target="14">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="530" y="300"/>
+                            <mxPoint x="750" y="300"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF9999;startArrow=oval;startFill=1;endArrow=open;endFill=0;" edge="1" parent="1" source="8" target="34">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="node&lt;br&gt;parent = 1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3399FF;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="200" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="原数组" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="554.5" y="140" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="node&lt;br&gt;..." style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3399FF;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="200" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="node&lt;br&gt;..." style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3399FF;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="200" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#FF9999;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="359" y="424" width="241" height="91" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF9999;startArrow=oval;startFill=1;endArrow=open;endFill=0;" edge="1" parent="1" source="16" target="33">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="node&lt;br&gt;parent = 0&lt;br&gt;id = 1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF9999;" vertex="1" parent="1">
+                    <mxGeometry x="379" y="444" width="80" height="51" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="新数组" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="449.5" y="394" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=1;endArrow=open;endFill=0;strokeColor=#FF9999;" edge="1" parent="1" source="30" target="16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="node.parent === 0&lt;br&gt;顶层节点插入新数组" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="354" y="345" width="130" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#FF9999;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="359.5" y="545" width="119" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="node&lt;br&gt;parent = 1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF9999;" vertex="1" parent="1">
+                    <mxGeometry x="379" y="565" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="children" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="383.5" y="625" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="&lt;span style=&quot;&quot;&gt;node.parent === otherNode.id&lt;/span&gt;&amp;nbsp;&lt;br&gt;子节点插入父节点children" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="345" width="190" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=oval;startFill=1;endArrow=none;endFill=0;strokeColor=#FF9999;" edge="1" parent="1" source="6" target="30">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="419" y="260" as="sourcePoint"/>
+                        <mxPoint x="419" y="419" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="59" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#99CCFF;startArrow=oval;startFill=1;endArrow=open;endFill=0;elbow=vertical;curved=1;" edge="1" parent="1" source="47" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#99CCFF;startArrow=oval;startFill=1;endArrow=open;endFill=0;elbow=vertical;" edge="1" parent="1" source="47" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#99CCFF;startArrow=oval;startFill=1;endArrow=open;endFill=0;elbow=vertical;" edge="1" parent="1" source="47" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#99CCFF;startArrow=oval;startFill=1;endArrow=open;endFill=0;elbow=vertical;" edge="1" parent="1" source="47" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="&lt;span style=&quot;&quot;&gt;外层循环:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;为每个子节点找父节点&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#CCCCFF;" vertex="1" parent="1">
+                    <mxGeometry x="478.5" y="20" width="201" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="&lt;span style=&quot;&quot;&gt;内层循环:&amp;nbsp; 为该节点找父节点&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#CCCCFF;" vertex="1" parent="1">
+                    <mxGeometry x="690" y="300" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#CCCCFF;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="354" y="344" width="349" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="内层循环判断" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="264" y="352" width="90" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#3399FF;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1167" y="180" width="451" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="node&lt;br&gt;parent = 0&lt;br&gt;id = 1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3399FF;" vertex="1" parent="1">
+                    <mxGeometry x="1187" y="200" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF9999;startArrow=oval;startFill=1;endArrow=open;endFill=0;" edge="1" parent="1" source="72" target="83">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#99CCFF;startArrow=oval;startFill=1;endArrow=open;endFill=0;elbow=vertical;" edge="1" parent="1" source="72" target="95">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1338" y="331"/>
+                            <mxPoint x="1864" y="331"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="72" value="node&lt;br&gt;parent = 1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3399FF;" vertex="1" parent="1">
+                    <mxGeometry x="1298" y="210" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="原数组" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="1362.5" y="150" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="node&lt;br&gt;..." style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3399FF;" vertex="1" parent="1">
+                    <mxGeometry x="1408" y="210" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="node&lt;br&gt;..." style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3399FF;" vertex="1" parent="1">
+                    <mxGeometry x="1518" y="210" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#FF9999;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1167" y="434" width="241" height="91" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF9999;startArrow=oval;startFill=1;endArrow=open;endFill=0;" edge="1" parent="1" source="78" target="82">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="node&lt;br&gt;parent = 0&lt;br&gt;id = 1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF9999;" vertex="1" parent="1">
+                    <mxGeometry x="1187" y="454" width="80" height="51" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="新数组" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="1257.5" y="404" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=1;endArrow=open;endFill=0;strokeColor=#FF9999;" edge="1" parent="1" source="81" target="78">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="! map.has(parent)&lt;br&gt;顶层节点插入新数组" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1164" y="355" width="126" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#FF9999;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1167.5" y="555" width="119" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="node&lt;br&gt;parent = 1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF9999;" vertex="1" parent="1">
+                    <mxGeometry x="1187" y="575" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="children" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="1191.5" y="635" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="map.has(parent)&amp;nbsp;&lt;br&gt;子节点插入父节点children" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1345" y="355" width="156" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=oval;startFill=1;endArrow=none;endFill=0;strokeColor=#FF9999;" edge="1" parent="1" source="67" target="81">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1227" y="270" as="sourcePoint"/>
+                        <mxPoint x="1227" y="429" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="87" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#99CCFF;startArrow=oval;startFill=1;endArrow=open;endFill=0;elbow=vertical;curved=1;" edge="1" parent="1" source="91" target="67">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#99CCFF;startArrow=oval;startFill=1;endArrow=open;endFill=0;elbow=vertical;" edge="1" parent="1" source="91" target="72">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#99CCFF;startArrow=oval;startFill=1;endArrow=open;endFill=0;elbow=vertical;" edge="1" parent="1" source="91" target="74">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#99CCFF;startArrow=oval;startFill=1;endArrow=open;endFill=0;elbow=vertical;" edge="1" parent="1" source="91" target="75">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="&lt;span style=&quot;&quot;&gt;外层循环:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;为每个子节点找父节点&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#CCCCFF;" vertex="1" parent="1">
+                    <mxGeometry x="1286.5" y="30" width="201" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="map查询，只需一次" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#CCCCFF;" vertex="1" parent="1">
+                    <mxGeometry x="1842" y="314" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="查询结果判断" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1072" y="362" width="90" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#99FFCC;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1638" y="180" width="451" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="node&lt;br&gt;parent = 0&lt;br&gt;id = 1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#99FFCC;" vertex="1" parent="1">
+                    <mxGeometry x="1658" y="200" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="node&lt;br&gt;parent = 1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#99FFCC;" vertex="1" parent="1">
+                    <mxGeometry x="1769" y="210" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="new Map 转存" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="1817.5" y="152" width="94" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" value="node&lt;br&gt;..." style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#99FFCC;" vertex="1" parent="1">
+                    <mxGeometry x="1879" y="210" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" value="node&lt;br&gt;..." style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#99FFCC;" vertex="1" parent="1">
+                    <mxGeometry x="1989" y="210" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#3399FF;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="2368" y="183" width="451" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="131" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF9999;startArrow=oval;startFill=1;endArrow=open;endFill=0;elbow=vertical;" edge="1" parent="1" source="103" target="118">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="node&lt;br&gt;parent = 0&lt;br&gt;id = 1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3399FF;" vertex="1" parent="1">
+                    <mxGeometry x="2388" y="203" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#66B2FF;startArrow=oval;startFill=1;endArrow=open;endFill=0;" edge="1" parent="1" source="108">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2429" y="253" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="2539" y="293"/>
+                            <mxPoint x="2429" y="293"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="107" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF9999;startArrow=oval;startFill=1;endArrow=open;endFill=0;" edge="1" parent="1" source="108" target="119">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="node&lt;br&gt;parent = 1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3399FF;" vertex="1" parent="1">
+                    <mxGeometry x="2499" y="213" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="原数组" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="2563.5" y="153" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="134" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#99CCFF;startArrow=oval;startFill=1;endArrow=open;endFill=0;elbow=vertical;" edge="1" parent="1" source="110">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2427.0845642089844" y="253" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="2649" y="301"/>
+                            <mxPoint x="2427" y="301"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="135" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#99CCFF;startArrow=oval;startFill=1;endArrow=open;endFill=0;elbow=vertical;" edge="1" parent="1" source="110" target="118">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="142" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#99CCFF;startArrow=oval;startFill=1;endArrow=open;endFill=0;elbow=vertical;" edge="1" parent="1" source="110" target="138">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" value="node&lt;br&gt;..." style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3399FF;" vertex="1" parent="1">
+                    <mxGeometry x="2609" y="213" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" value="node&lt;br&gt;..." style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3399FF;" vertex="1" parent="1">
+                    <mxGeometry x="2719" y="213" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" value="node.parent === 0&lt;br&gt;保持不动" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="2648" y="362" width="116" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="118" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#FF9999;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="2368" y="326" width="119" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="141" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF9999;startArrow=oval;startFill=1;endArrow=open;endFill=0;elbow=vertical;" edge="1" parent="1" source="119" target="138">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="119" value="node&lt;br&gt;parent = 1" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF9999;" vertex="1" parent="1">
+                    <mxGeometry x="2387.5" y="346" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="120" value="children" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="2298" y="355" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="121" value="&lt;span style=&quot;&quot;&gt;node.parent &amp;amp;&amp;amp; findChild(otherNode)&lt;/span&gt;&amp;nbsp;&lt;br&gt;递归寻找节点children，直至插入" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="2793" y="362" width="219" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="123" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#99CCFF;startArrow=oval;startFill=1;endArrow=open;endFill=0;elbow=vertical;curved=1;" edge="1" parent="1" source="127" target="103">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="124" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#99CCFF;startArrow=oval;startFill=1;endArrow=open;endFill=0;elbow=vertical;" edge="1" parent="1" source="127" target="108">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="125" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#99CCFF;startArrow=oval;startFill=1;endArrow=open;endFill=0;elbow=vertical;" edge="1" parent="1" source="127" target="110">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="126" style="edgeStyle=orthogonalEdgeStyle;curved=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#99CCFF;startArrow=oval;startFill=1;endArrow=open;endFill=0;elbow=vertical;" edge="1" parent="1" source="127" target="111">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="127" value="&lt;span style=&quot;&quot;&gt;外层循环:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;为每个子节点找父节点&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#CCCCFF;" vertex="1" parent="1">
+                    <mxGeometry x="2487.5" y="33" width="201" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="130" value="判断每个节点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="2779" y="335" width="90" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="138" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#FF9999;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="2368.5" y="427" width="119" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="139" value="node&lt;br&gt;..." style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF9999;" vertex="1" parent="1">
+                    <mxGeometry x="2388" y="447" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="140" value="children" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="2298.5" y="456" width="70" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

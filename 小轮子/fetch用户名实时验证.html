@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //针对fetch请求响应错误，对错误进行验证分类，如果是请求已发送的httpError错误，且响应状态为404则确认为用户名不存在
+      //进而提醒用户重新输入，直到用户名存在，并输出用户名
+
+      //创建自定义错误
+      class HttpError extends Error {
+        constructor(response) {
+          super(`${response.status} for ${response.url}`);
+          this.name = "HttpError";
+          this.response = response;
+        }
+      }
+
+      //在fetch中区分错误类型
+      function loadJson(url) {
+        return (
+          fetch(url)
+            //成功发出请求
+            .then((response) => {
+              if (response.status == 200) {
+                return response.json();
+              } else {
+                throw new HttpError(response);
+              }
+            })
+          //请求发送失败 这句不能加 否则直接处理then抛出的错误，会直接执行line 44的then
+          //.catch((error) => alert(error))
+        );
+      }
+
+      //使用loadJson
+      //loadJson("no-such-user.json").catch((error) => alert(error));
+
+      function githubUser() {
+        let name = prompt("give me a name?", "limingheee");
+
+        loadJson(`https://api.github.com/users/${name}`)
+          .then((user) => alert("got your name " + user.name))
+          //失败情况：loadJson的then里抛出的httpError
+          .catch((error) => {
+            if (error instanceof HttpError && error.response.status == 404) {
+              alert("No such user, please reenter.");
+              githubUser();
+            } else {
+              throw error;
+            }
+          });
+      }
+
+      githubUser();
+    </script>
+  </body>
+</html>

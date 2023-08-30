@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>九宫格串串宝</title>
+    <style>
+      main {
+        width: 50vh;
+        height: 50vh;
+        margin: 25vh auto;
+        background-color: antiquewhite;
+
+        /* 
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 10px; 
+        padding: 10px;
+        */
+
+        display: flex;
+        flex-wrap: wrap;
+        padding: 2px;
+      }
+      div {
+        flex: 1 1 30%;
+        margin: 2px;
+        background-color: aliceblue;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        overflow: auto;
+      }
+      #example {
+        width: 300px;
+        height: 3000px;
+        border: 25px solid #e8c48f;
+        padding: 20px;
+        overflow: auto;
+      }
+      button {
+        display: none;
+        position: fixed;
+        right: 10%;
+        bottom: 10%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="example">...Text...</div>
+    <button onclick="smoothscroll()">BackToTop</button>
+
+    <script>
+      //这个方法应该被废弃，因为：
+      /* 由于 scroll 事件可被高频触发，事件处理程序不应该执行高性能消耗的操作，如DOM操作。而更推荐的做法是使用 requestAnimationFrame(), 
+        setTimeout() 或 CustomEvent 给事件节流*/
+
+      //为body添加滚动事件，当屏幕向下滚动超过一个页面长度后显示回到顶部组件
+      window.addEventListener("scroll", () => {
+        let windowHeight =
+          document.documentElement.clientHeight || document.body.clientHeight;
+
+        let currentScroll =
+          document.documentElement.scrollTop || document.body.scrollTop; //在我的浏览器上生效的是前者
+
+        if (currentScroll >= windowHeight) {
+          document.querySelector("button").style.display = "block";
+        } else {
+          document.querySelector("button").style.display = "none";
+        }
+      });
+
+      //回到顶部方法
+      function smoothscroll() {
+        var currentScroll = window.pageYOffset;
+        //document.documentElement.scrollTop || document.body.scrollTop; //浏览器兼容，实际上可直接换成window.pageYOffset
+
+        if (currentScroll > 0) {
+          window.requestAnimationFrame(smoothscroll); //以浏览器每秒刷新次数为每秒执行次数运行该回调函数，在回调函数中执行该方法可不需要重绘就执行该动画
+          window.scrollTo(0, currentScroll - currentScroll / 10); //上滑速度逐渐减小,分母数字越大速度越慢
+        }
+        //使用bom API 能直接实现，不过这个smooth几乎是匀速，只是帧率上是符合浏览器刷新率的
+        // window.scrollTo({
+        //   top: 0,
+        //   behavior: "smooth",
+        // });
+      }
+
+      let scrollHeight = Math.max(
+        document.body.scrollHeight,
+        document.documentElement.scrollHeight,
+        document.body.offsetHeight,
+        document.documentElement.offsetHeight,
+        document.body.clientHeight,
+        document.documentElement.clientHeight
+      );
+
+      console.log(
+        "Full document height, with scrolled out part: " + scrollHeight
+      );
+    </script>
+  </body>
+</html>

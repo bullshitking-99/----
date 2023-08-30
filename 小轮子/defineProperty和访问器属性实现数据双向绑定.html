@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <label for="name">输入姓名:</label>
+    <input type="text" id="name" onchange="changeName()" />
+    <button onclick="changeInput()">恢复名字为上一次输入</button>
+    <h1 id="myName"></h1>
+    <script>
+      var myName;
+      var person = {
+        _name: "",
+        lastName: "",
+      };
+      function changeName() {
+        let input = document.querySelector("#name").value;
+        person.name = input;
+        if (!person.lastName) {
+          person.lastName = input;
+        }
+      }
+      Object.defineProperty(person, "name", {
+        get() {
+          return this._name;
+        },
+        set(val) {
+          this.lastName = this._name;
+          this._name = val;
+          document.querySelector("#name").value = val;
+          document.querySelector("#myName").innerHTML = "MyName is " + val;
+        },
+      });
+      function changeInput() {
+        person.name = person.lastName;
+      }
+    </script>
+  </body>
+</html>

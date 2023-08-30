@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>打字机效果</title>
+  </head>
+  <body>
+    <h1>打字机生成器</h1>
+    <label>请输入文本:</label><input type="text" />
+    <button onclick="generateTypeEffect()">生成打字效果</button>
+    <h2 id="showText"></h2>
+    <script>
+      function generateTypeEffect() {
+        let str = document.querySelector("input").value;
+        document.getElementById("showText").innerHTML = `${str} : `;
+        let time = 0;
+        for (let s of str) {
+          setTimeout(() => {
+            document.getElementById("showText").innerHTML += s;
+          }, (time += 200));
+        }
+      }
+    </script>
+  </body>
+</html>

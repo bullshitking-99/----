@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .notification {
+        position: fixed;
+        z-index: 1000;
+        padding: 5px;
+        border: 1px solid black;
+        font-size: 20px;
+        background: white;
+        text-align: center;
+      }
+
+      .welcome {
+        background: #b80000;
+        color: yellow;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h2>Notification is on the right</h2>
+
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
+      aspernatur quam ex eaque inventore quod voluptatem adipisci omnis nemo
+      nulla fugit iste numquam ducimus cumque minima porro ea quidem maxime
+      necessitatibus beatae labore soluta voluptatum magnam consequatur sit
+      laboriosam velit excepturi laborum sequi eos placeat et quia deleniti?
+      Corrupti velit impedit autem et obcaecati fuga debitis nemo ratione iste
+      veniam amet dicta hic ipsam unde cupiditate incidunt aut iure ipsum
+      officiis soluta temporibus. Tempore dicta ullam delectus numquam
+      consectetur quisquam explicabo culpa excepturi placeat quo sequi molestias
+      reprehenderit hic at nemo cumque voluptates quidem repellendus maiores
+      unde earum molestiae ad.
+    </p>
+
+    <script>
+      function showNotification({ top = 0, right = 0, className, html }) {
+        let note = document.createElement("div");
+        //note.style.cssText = "top:`${top}`px;right:`${right}`px;"; //invalid 参数无法正常传递 解析后是"10"px
+        note.style.top = top + "px";
+        note.style.right = right + "px";
+        note.className = "notification";
+        note.classList.add(...className);
+        note.innerHTML = html;
+        document.body.prepend(note);
+        setTimeout(() => {
+          note.remove();
+        }, 1500);
+      }
+
+      // test it
+      let i = 1;
+      setInterval(() => {
+        showNotification({
+          top: 10,
+          right: 10,
+          html: "Hello " + i++,
+          className: ["welcome", "dude"],
+        });
+        let div = document.querySelector("div");
+        console.log(getComputedStyle(div).top);
+      }, 2000);
+    </script>
+  </body>
+</html>
