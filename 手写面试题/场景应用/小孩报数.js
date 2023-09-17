@@ -1,31 +1,47 @@
-// n个小孩进行编号1-n，循环报数1-k，k号离开，求最后留下小孩的编号
-// 该函数有待完善，但我的理论是对的，耶
+// n个小孩进行编号0->n-1，循环报数1-k，k号离开，求最后留下小孩的编号
+// 约瑟夫环问题
 
-function childNum() {
-  const Children = new Array(31).fill(1);
-  //   Children.forEach((item, index, arr) => (arr[index] = ++index));
+// 以k循环 递归处理剩下的小孩
+// 删除后头尾交换即可代表新数组
 
-  let count = 1;
-  function counter(id) {
-    if (count === 3) {
-      Children[id] = 0;
-      count = 0;
-    }
-    count++;
-  }
-  let lastPerson;
+const childNum = 88;
+const children = new Array(childNum).fill(1).map((_, i) => i);
 
-  while (true) {
-    for (let i = 1; i <= 30; i++) {
-      if (lastPerson && lastPerson === i) {
-        return lastPerson;
-      }
-      if (Children[i]) {
-        counter(i);
-        lastPerson = i;
-      }
-    }
-  }
+function delChild(children, k) {
+  const num = children?.length;
+
+  if (!num || !k) return false;
+
+  if (num === 1) return children[0];
+
+  let index = (num < k ? k % num : k) - 1;
+  // 输出点在右边界的特殊处理
+  if (index < 0) index = num - 1;
+
+  const newChildren = [
+    ...children.slice(index + 1),
+    ...children.slice(0, index),
+  ];
+
+  return delChild(newChildren, k);
 }
 
-console.log(childNum());
+// 递归占用的栈空间太大，已知循环次数所以改为迭代
+var lastRemaining = function (n, k) {
+  let children = new Array(n).fill(1).map((_, i) => i);
+
+  // 递归占用的栈空间太大，已知循环次数所以改为迭代
+  while (children.length > 1) {
+    const num = children.length;
+    let index = (num < k ? k % num : k) - 1;
+    // 输出点在右边界的特殊处理
+    if (index < 0) index = num - 1;
+
+    children = [...children.slice(index + 1), ...children.slice(0, index)];
+  }
+
+  return children[0];
+};
+
+// 仍会时间超时 需要参考数学解法 https://leetcode.cn/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/solutions/177639/javajie-jue-yue-se-fu-huan-wen-ti-gao-su-ni-wei-sh/
+console.log(lastRemaining(70866, 116922));
